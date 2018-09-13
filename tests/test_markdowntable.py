@@ -1,8 +1,8 @@
 import unittest
-from lib.markdowntable import (get_headers_from_lines,
-                               generate_table_of_contents,
-                               generate_index,
-                               Header)
+from core.markdowntable import (get_headers_from_lines,
+                                generate_table_of_contents,
+                                generate_index,
+                                Header)
 
 
 class TestMarkdownTable(unittest.TestCase):

@@ -1,5 +1,5 @@
 import unittest
-from lib.exceltomarkdown import write_table, get_longest_values_by_column, generate_tables_from_excel_file
+from core.exceltomarkdown import write_table, get_longest_values_by_column, generate_tables_from_excel_file
 
 
 class TestExcelToMarkdownTables(unittest.TestCase):
