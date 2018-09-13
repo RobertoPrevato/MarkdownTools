@@ -8,8 +8,8 @@
  * http://www.opensource.org/licenses/MIT
 """
 import argparse
-from lib.exceltomarkdown import generate_tables_from_excel_file
-from lib.exceltomarkdown import generate_tables_from_ods_file
+from core.exceltomarkdown import generate_tables_from_excel_file
+from core.exceltomarkdown import generate_tables_from_ods_file
 
 separator = ('*' * 50) + '\n'
 

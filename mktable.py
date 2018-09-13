@@ -8,7 +8,7 @@
  * http://www.opensource.org/licenses/MIT
 """
 import argparse
-from lib.markdowntable import generate_table_of_contents_from_file
+from core.markdowntable import generate_table_of_contents_from_file
 
 separator = ('*' * 50) + '\n'
 
